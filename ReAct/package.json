@@ -1,0 +1,30 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "dev:agent": "tsx watch src/createAgentDemo.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "packageManager": "pnpm@11.26.0",
+  "volta": {
+    "node": "24.21.0",
+    "pnpm": "11.26.0"
+  },
+  "dependencies": {
+    "@langchain/core": "^1.4.1",
+    "@langchain/deepseek": "^1.1.25",
+    "dotenv": "^18.0.10",
+    "langchain": "^1.6.6",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "tsx": "^4.23.15"
+  }
+}
